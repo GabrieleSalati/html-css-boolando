@@ -92,4 +92,24 @@ body {
     flex-basis: 33%;
 }
 
+/* Footer style */
+
+.sub-bar {
+    height: 50px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.botcol-left {
+    border: 2px dashed white;
+    flex-basis: 50%;
+    color: white;
+}
+
+.botcol-right {
+    border: 2px dashed white;
+    flex-basis: 50%;
+    color: white;
+}
+
 
