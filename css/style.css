@@ -74,46 +74,45 @@ header {
 /* Main style */
 
 .products {
-    height: 350px;
-    background-color: grey;
-    margin-top: 20px;
+    margin-top: 80px;
     justify-content: space-between;
 }
 
 .main-col-left {
     background-color: blue;
-    height: 350px;
     flex-basis: 33%;
 }
 
 .main-col-mid {
     background-color: blue;
-    height: 350px;
     flex-basis: 33%;
 }
 
 .main-col-right {
     background-color: blue;
-    height: 350px;
     flex-basis: 33%;
+}
+
+.product {
+    width: 100%;
+    height: 100%;
 }
 
 /* Footer style */
 
-.sub-bar {
+footer {
     height: 50px;
     background-color: black;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 .botcol-left {
-    border: 2px dashed white;
     flex-basis: 50%;
     color: white;
 }
 
 .botcol-right {
-    border: 2px dashed white;
+    text-align: right;
     flex-basis: 50%;
     color: white;
 }
