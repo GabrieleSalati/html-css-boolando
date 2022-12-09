@@ -65,4 +65,31 @@ body {
     padding: 10px;
 }
 
+/* Main style */
+
+.products {
+    height: 350px;
+    background-color: grey;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.main-col-left {
+    background-color: blue;
+    height: 350px;
+    flex-basis: 33%;
+}
+
+.main-col-mid {
+    background-color: blue;
+    height: 350px;
+    flex-basis: 33%;
+}
+
+.main-col-right {
+    background-color: blue;
+    height: 350px;
+    flex-basis: 33%;
+}
+
 
