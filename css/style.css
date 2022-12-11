@@ -213,6 +213,10 @@ header {
     padding: 15px;
 }
 
+.heartbox:hover {
+    color: red;
+}
+
 .new-price {
     color: red;
     margin-right: 5px;
