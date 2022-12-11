@@ -44,6 +44,10 @@ body {
 header {
     height: 50px;
     background-color: #FF6900;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .h-col-left {
