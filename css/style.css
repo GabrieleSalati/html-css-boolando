@@ -14,7 +14,7 @@
 
 img,
 svg,
-picture,
+picture, 
 video {
     max-width: 100%;
 }
@@ -81,21 +81,61 @@ header {
 .main-col-left {
     background-color: blue;
     flex-basis: 33%;
+    position: relative;
 }
 
 .main-col-mid {
     background-color: blue;
     flex-basis: 33%;
+    position: relative;
 }
 
 .main-col-right {
     background-color: blue;
     flex-basis: 33%;
+    position: relative;
 }
 
 .product {
     width: 100%;
     height: 100%;
+}
+
+.red-sticker {
+    position: absolute;
+    background-color: red;
+    bottom: 10%;
+    padding: 5px;
+    color: white;
+}
+
+.green-sticker {
+    position: absolute;
+    background-color: green;
+    bottom: 10%;
+    left: 12%;
+    padding: 5px;
+    color: white;
+}
+
+.green-sticker-esprite {
+    position: absolute;
+    background-color: green;
+    bottom: 10%;
+    padding: 5px;
+    color: white;
+}
+
+.heartbox {
+    background-color: white;
+    position: absolute;
+    left: 90%;
+    bottom: 90%;
+    padding: 15px;
+}
+
+h2 {
+    font-weight: bold;
 }
 
 /* Footer style */
