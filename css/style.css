@@ -78,27 +78,104 @@ header {
 }
 
 .main-col-left {
-    background-color: blue;
     flex-basis: 33%;
     position: relative;
 }
 
 .main-col-mid {
-    background-color: blue;
     flex-basis: 33%;
     position: relative;
 }
 
 .main-col-right {
-    background-color: blue;
     flex-basis: 33%;
     position: relative;
 }
 
-.product {
+.product-relaxed {
+    height: 700px;
+    background-image: url(../img/1.webp);
     width: 100%;
     height: 100%;
+    background-size: cover;
 }
+
+.product-relaxed:hover {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/1b.webp);
+}
+
+.product-roses {
+    height: 700px;
+    background-image: url(../img/2.webp);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.product-roses:hover {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/2b.webp);
+}
+
+.product-pastello {
+    height: 700px;
+    background-image: url(../img/3.webp);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.product-pastello:hover {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/3b.webp);
+}
+
+.product-tee {
+    height: 700px;
+    background-image: url(../img/4.webp);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.product-tee:hover {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/4b.webp);
+}
+
+.product-stripe {
+    height: 700px;
+    background-image: url(../img/5.webp);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.product-stripe:hover {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/5b.webp);
+}
+
+.product-black {
+    height: 700px;
+    background-image: url(../img/4.webp);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.product-black:hover {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/4b.webp);
+}
+
 
 .red-sticker {
     position: absolute;
